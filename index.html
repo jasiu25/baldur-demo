@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baldur - Posprzątamy wszystko</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.12.0/dist/css/lightbox.min.css">
+  </head>
+  <body>
+    <nav>
+      <a href="#">
+        <span id="logo">Baldur</span>
+      </a>
+      <p style="color: #f00; font-weight: 600;">Wersja demonstracyjna!</p>
+      <div id="controls-wrapper">
+        <a href="#services" class="controls">Oferta</a>
+        <a href="#about" class="controls">O nas</a>
+        <a href="#contact" class="controls">Kontakt</a>
+      </div>
+      <button id="hamburgerMenuBtn">&equiv;</button>
+    </nav>
+    <section id="hero">
+      <div id="hero-content">
+        <h2>Baldur</h2>
+        <p>Profesjonalne sprzątanie biur i mieszkań.</p>
+        <a href="#contact">Skontaktuj się</a>
+      </div>
+    </section>
+    <section id="services">
+      <h2>Nasze usługi</h2>
+      <ul>
+        <li>sprzątanie biur, mieszkań, domów, lokali użytkowych/gastronomicznych</li>
+        <li>pranie wykładzin, dywanów i obić</li>
+        <li>polimeryzacja wykładzin PCV</li>
+        <li>mycie okien, również na dużej wysokości</li>
+        <li>profesjonalne środki czystości</li>
+      </ul>
+    </section>
+    <section id="about">
+      <h2>O firmie</h2>
+      <p>Nasza firma oferuje Państwu kompleksowe sprzątanie biur, mieszkań oraz domów. Zajmujemy się również malowaniem wnętrz, a także transportem przy przeprowadzkach.</p>
+    </section>
+    <section id="projects">
+      <h2>Nasze realizacje</h2>
+      <div id="projects-wrapper">
+        <a href="src/assets/1.jpg" data-lightbox="projects"><img src="src/assets/1.jpg" alt="zdjęcie1"></a>
+        <a href="src/assets/2.jpg" data-lightbox="projects"><img src="src/assets/2.jpg" alt="zdjęcie2"></a>
+        <a href="src/assets/3.jpg" data-lightbox="projects"><img src="src/assets/3.jpg" alt="zdjęcie3"></a>
+      </div>
+    </section>
+    <section id="testimonials">
+      <h2>Co mówią nasi klienci</h2>
+      <div id="articles-wrapper">
+        <article>
+          <h4>"Zależało mi na szybkiej realizacji usługi i mogłam na nią liczyć. Mieszkanie sprzątnięte perfekcyjnie, sprzęty w kuchni, okna, meble oraz wszystkie zakamarki dokładnie wyczyszczone. Jestem bardzo zadowolona. Gorąco polecam jej usługi!"</h4>
+          <p>- Pani Małgorzata</p>
+        </article>
+        <article>
+          <h4>"Podziękowania,dla firmy sprzątającej Baldur. Zasługuje na wyróżnienie,za solidna,terminową i wzorową pracę. Przyjemność patrzeć na efekty sprzątania. Polecam"</h4>
+          <p>- Barbara Galant</p>
+        </article>
+        <article>
+          <h4>"Bardzo polecam! Generalne sprzątanie mocno zaniedbanego mieszkania (mycie wszystkich sprzętów, kafelków, ścian, okien, podłóg, balkonu) wykonane bardzo dokładnie. Dogodny termin, dobry kontakt z firmą, praca wykonana terminowo,  bez zarzutu!"</h4>
+          <p>- Anna Fonkowicz</p>
+        </article>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <div id="contact-wrapper">
+        <div id="communication-wrapper">
+          <h3>Porozmawiajmy</h3>
+          <p>Ul. Zygmunta Modzelewskiego 23, 02-679 Warszawa</p>
+          <p>Tel: 502 277 775</p>
+          <p>email: baldur@baldur.com.pl</p>
+        </div>
+        <form action="#">
+          <h3>Wyślij zapytanie</h3>
+          <label for="name">Imię, Nazwisko / Firma *</label>
+          <input type="text" id="name" required>
+          <label for="email">Email *</label>
+          <input type="email" id="email" required>
+          <label for="telephone">Telefon</label>
+          <input type="tel" id="telephone">
+          <label for="content">Treść wiadomości</label>
+          <textarea name="content" id="content"></textarea>
+          <button type="submit">Wyślij</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      &copy; Baldur 2026
+      <a href="#services">Oferta</a>
+      <a href="#about">O nas</a>
+      <a href="#contact">Kontakt</a>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/lightbox2@2.12.0/dist/js/lightbox-plus-jquery.js "></script>
+  </body>
+</html>
